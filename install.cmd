@@ -5,8 +5,8 @@ setlocal enabledelayedexpansion
 
 cd /d "%~dp0"
 
-set "wslImage=mosh8"
-set "wslLocation=c:\serguey\wsl"
+set "wslImage=mosh"
+set "wslLocation=c:\wsl"
 set "wslPrepareFile=mosh.wsl.tar.gz"
 set "rootfsFile=photon-rootfs-4.0-1601b6aef.tar.gz"
 set "rootfsUri=https://github.com/vmware/photon-docker-image/raw/79534947b866070f2e2ad119e0960ac4ba3589de/docker/photon-rootfs-4.0-1601b6aef.tar.gz"
